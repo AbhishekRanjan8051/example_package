@@ -1,48 +1,34 @@
-# heading h1
+# Example Package
 
-## test h2
+Made a package for Learning from
 
-### test h3
+[Link to npm](https://www.npmjs.com/package/@abhishek_ranjan/example_package)
 
-### list
-
-- list item1
-- list item 2
-
-### code block
+### Install
 
 ```
-  npm install example
+npm i @abhishek_ranjan/example_package
 ```
 
-### code block with language
+### Usage
 
 ```js
-var name = "example";
+var sum = require("@abhishek_ranjan/example_package");
+
+var result = sum(5, 10);
+
+console.log(result);
+
+//15
 ```
 
-## italic
+### API
 
-_list_
+```
 
-## bold
+function sum( a:number, b:number )  => number;
+```
 
-**bold**
+### Maintainers
 
-## images
-
-- images
-
-![masai school](https://i2.wp.com/hrnxt.com/wp-content/uploads/2021/06/masai-school2.jpg?fit=1200%2C456&ssl=1)
-
-- link
-[masai.school](www.masai.school.com)
-
-## highlighted text
-
-### `test`
-
-
-## quotes
-
-> quote
+[AbhishekRanjan8051](https://github.com/AbhishekRanjan8051)
